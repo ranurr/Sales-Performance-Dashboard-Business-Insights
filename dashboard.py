@@ -26,9 +26,11 @@ OUT_DIR = os.path.join(BASE_DIR, "output")
 @st.cache_data
 def load_raw_data():
     my_data = pd.read_csv(RAW_PATH, encoding='latin-1')
-    my_data["Order Date"] = pd.to_datetime(my_data["Order Date"])
-    my_data["Ship Date"] = pd.to_datetime(my_data["Ship Date"])
-    my_data["year"] = my_data["Order Date"].dt.year
+    my_data["Order Date"] = pd.to_datetime(my_data["Order Date"], errors='coerce')
+    my_data["Ship Date"] = pd.to_datetime(my_data["Ship Date"], errors='coerce')
+    # drop rows where dates or key columns are missing
+    my_data = my_data.dropna(subset=["Order Date", "Region", "Category", "Sales"]).copy()
+    my_data["year"] = my_data["Order Date"].dt.year.astype(int)
     my_data["month"] = my_data["Order Date"].dt.month
     my_data["year_month"] = my_data["Order Date"].dt.to_period("M").astype(str)
     # compute profit margin - same as in the analysis script
