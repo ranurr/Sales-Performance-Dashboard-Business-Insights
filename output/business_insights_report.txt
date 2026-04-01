@@ -1,0 +1,49 @@
+======================================================================
+  SALES PERFORMANCE DASHBOARD - BUSINESS INSIGHTS REPORT
+======================================================================
+
+  Report generated from 2015-01-03 to 2018-12-30
+  Total records analyzed: 10,800
+
+----------------------------------------------------------------------
+  KEY PERFORMANCE INDICATORS
+----------------------------------------------------------------------
+  Total Sales          : $  2,341,119.80
+  Total Profit         : $    293,382.22
+  Overall Profit Margin:         12.53%
+  Total Orders         :          5,015
+  Unique Customers     :            793
+  YoY Sales Growth     :         51.41%
+
+----------------------------------------------------------------------
+  TOP 5 ACTIONABLE BUSINESS INSIGHTS
+----------------------------------------------------------------------
+
+  1. SEASONAL Q4 SPIKE: Q4 sales is 80.1% higher than the average of other quarters. Recommendation: Stock up inventory and increase marketing spend before October.
+
+  2. REGIONAL UNDERPERFORMANCE: The Central region has the lowest profit margin at 7.9% vs. West's 15.0%. Recommendation: Investigate logistics costs and pricing strategy.
+
+  3. DISCOUNT EROSION: Orders with 30%+ discounts have a margin of -37.3%, compared to 29.5% for orders with 0-5% discount. Recommendation: Cap standard discounts at 20% and require approval for anything higher.
+
+  4. TECHNOLOGY IS THE MARGIN LEADER: Technology achieves a 17.4% margin, while Furniture only achieves 2.5%. Recommendation: Expand Technology and review Furniture pricing.
+
+  5. LOSS-MAKING ORDERS: 17.3% of line items (1,871) generate negative profit, totaling $156,131.29 in losses. Recommendation: Implement a minimum-margin policy to prevent selling below cost.
+
+----------------------------------------------------------------------
+  REGIONAL PERFORMANCE
+----------------------------------------------------------------------
+  Central    Sales: $  501,239.89  Profit: $   39,706.36  Margin: 7.9%
+  East       Sales: $  678,781.24  Profit: $   91,522.78  Margin: 13.5%
+  South      Sales: $  391,721.91  Profit: $   46,749.43  Margin: 11.9%
+  West       Sales: $  769,376.76  Profit: $  115,403.65  Margin: 15.0%
+
+----------------------------------------------------------------------
+  CATEGORY PERFORMANCE
+----------------------------------------------------------------------
+  Furniture          Sales: $  741,999.80  Profit: $   18,451.27  Margin: 2.5%
+  Office Supplies    Sales: $  762,965.97  Profit: $  129,476.00  Margin: 17.0%
+  Technology         Sales: $  836,154.03  Profit: $  145,454.95  Margin: 17.4%
+
+======================================================================
+  End of Report
+======================================================================
